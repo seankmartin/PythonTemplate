@@ -1,5 +1,5 @@
 # PythonTemplate
-Template for Python Projects.
+A template for Python Projects.
 
 ## How to convert to your project
 1. Rename the folder `your_package` and edit `your_package/__init__.py`
@@ -15,19 +15,19 @@ Checkout TODO put link for a guide to getting a project like this formatted, lin
 # README Template Below
 
 # Project Name
-Short Description
+Give a succinct description of the project.
 
 ## Installation
-How to install stable version and dev version.
+Describe how to install stable version and dev version.
 
 ## Dependencies
-What does installation require?
+List what installation requires.
 
 ## Documentation
-Where can further documentation be found?
+Link to where can further documentation be found.
 
 ## Contributing
-Is there a guide for contributing?
+Show the guide for contributing.
 
 ## Licensing
-What License is this project provided under?
+What License the project is provided under.
