@@ -5,7 +5,7 @@ def TemplateClass(object):
     """
     The template class does nothing.
 
-    See https://numpydoc.readthedocs.io/en/latest/format.html
+    See https://numpydoc.readthedocs.io/en/latest/format.html.
     For how this docstring is layed out.
 
     Attributes

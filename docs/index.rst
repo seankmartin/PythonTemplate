@@ -6,6 +6,9 @@
 Welcome to your_package's documentation!
 ========================================
 
+.. automodule:: your_package.your_module
+    :members:
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
