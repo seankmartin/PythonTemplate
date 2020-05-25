@@ -7,3 +7,7 @@ pydocstyle
 docformatter
 pdoc3
 setuptools
+sphinx
+m2r
+sphinxcontrib-apidoc
+sphinx_rtd_theme
