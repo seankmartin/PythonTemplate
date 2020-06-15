@@ -26,10 +26,21 @@ project = 'your_package'
 copyright = '2020, you'
 author = 'you'
 
-# The short X.Y version
-version = ''
-# The full version, including alpha/beta/rc tags
-release = '0.0.1'
+
+def parse_version(fname):
+    with open(fname, "r") as f:
+        version_info = f.readlines()
+    version_dict = {}
+    for line in version_info:
+        key, val = line.strip().split("=")
+        key, val = key.strip(), val.strip()
+        version_dict[key] = val
+    return version_dict
+
+
+version_file_location = os.path.join(package_location, "version.txt")
+version_info = parse_version(version_file_location)
+release = version_info["version"]
 
 
 # -- General configuration ---------------------------------------------------
