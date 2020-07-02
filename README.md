@@ -10,7 +10,7 @@ A template for Python Projects.
 
 Optionally, you could also setup continuous integration with CircleCI or similar, and setup git hooks.
 
-Checkout TODO put link for a guide to getting a project like this formatted, linted, and shared on PyPI and Read the Docs.
+Check [my website](https://seankmartin.netlify.app/python/getting_your_code_out_there/#uploading-your-package-to-pypi) for more information.
 
 # README Template Below
 
