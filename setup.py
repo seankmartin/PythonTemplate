@@ -39,8 +39,7 @@ LICENSE = "short_string"  # For example "GNU-GPLv3"
 # As a comma separated list of requirements
 # Full requirements should be listed in requirements.txt
 # Supports just "name", "name == version", or "name >= version".
-INSTALL_REQUIRES = [
-]
+INSTALL_REQUIRES = []
 
 # List individual packages provided by your repository here
 # Often this is just the single name, your_package
@@ -58,7 +57,6 @@ CLASSIFIERS = [
     "Operating System :: Microsoft :: Windows",
     "Operating System :: MacOS :: MacOS X",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-
 ]
 
 # You can also try except this to use distutils
@@ -66,19 +64,20 @@ from setuptools import setup
 
 if __name__ == "__main__":
 
-    setup(name=DISTNAME,
-          author=MAINTAINER,
-          author_email=MAINTAINER_EMAIL,
-          maintainer=MAINTAINER,
-          maintainer_email=MAINTAINER_EMAIL,
-          description=DESCRIPTION,
-          long_description=LONG_DESCRIPTION,
-          long_description_content_type=LONG_DESCRIPTION_CONTENT_TYPE,
-          url=URL,
-          version=VERSION,
-          download_url=DOWNLOAD_URL,
-          install_requires=INSTALL_REQUIRES,
-          include_package_data=True,
-          packages=PACKAGES,
-          classifiers=CLASSIFIERS,
-          )
+    setup(
+        name=DISTNAME,
+        author=MAINTAINER,
+        author_email=MAINTAINER_EMAIL,
+        maintainer=MAINTAINER,
+        maintainer_email=MAINTAINER_EMAIL,
+        description=DESCRIPTION,
+        long_description=LONG_DESCRIPTION,
+        long_description_content_type=LONG_DESCRIPTION_CONTENT_TYPE,
+        url=URL,
+        version=VERSION,
+        download_url=DOWNLOAD_URL,
+        install_requires=INSTALL_REQUIRES,
+        include_package_data=True,
+        packages=PACKAGES,
+        classifiers=CLASSIFIERS,
+    )

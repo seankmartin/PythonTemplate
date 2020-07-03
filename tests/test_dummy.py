@@ -5,6 +5,8 @@ Could either do docstyle tests, or actual tests.
 Actual tests preferred, but see pytest.ini for using doctests.
 
 """
+
+
 def add(a, b):
     """
     Add two objects.
@@ -17,9 +19,10 @@ def add(a, b):
     """
     return a + b
 
+
 def test_adding():
     # This will pass
-    assert(add(1, 1) == 2)
+    assert add(1, 1) == 2
 
     # This would fail
-    #assert(1 + 1 != 2)
+    # assert(1 + 1 != 2)
