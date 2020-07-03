@@ -6,7 +6,7 @@ Welcome to your_package's documentation!
    :caption: Contents:
 
    readme
-   reference/modules
+   reference/your_package
 
 
 Indices and tables
