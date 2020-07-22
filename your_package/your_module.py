@@ -1,7 +1,7 @@
 """Top level description of your module."""
 
 
-def TemplateClass(object):
+class TemplateClass(object):
     """
     The template class does nothing.
 
@@ -15,10 +15,17 @@ def TemplateClass(object):
     bar : int
         Another useless attribute.
 
+    Parameters
+    ----------
+    foo : float, optional
+        The first number to multiply by, default is 0
+    bar : float, optional
+        The second number to multiply by, default is 0
+
     Methods
     -------
     __add__(self, other)
-        Return (foo * self.bar) + other
+        return (self.foo * self.bar) + (other.foo * other.bar)
 
     """
 
@@ -28,4 +35,4 @@ def TemplateClass(object):
         self.foo = foo
 
     def __add__(self, other):
-        return (foo * self.bar) + other
+        return (self.foo * self.bar) + (other.foo * other.bar)
