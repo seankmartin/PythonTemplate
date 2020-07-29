@@ -15,6 +15,7 @@ def parse_version(fname="version.txt"):
     for line in version_info:
         key, val = line.strip().split("=")
         key, val = key.strip(), val.strip()
+        val = val[1:-1]
         version_dict[key] = val
     return version_dict
 
@@ -59,6 +60,8 @@ CLASSIFIERS = [
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
 ]
 
+ENTRY_POINTS = {"console_scripts": ["your_package_cli = your_package.cli:cli_entry"]}
+
 # You can also try except this to use distutils
 from setuptools import setup
 
@@ -80,4 +83,5 @@ if __name__ == "__main__":
         include_package_data=True,
         packages=PACKAGES,
         classifiers=CLASSIFIERS,
+        entry_points=ENTRY_POINTS,
     )
