@@ -15,7 +15,7 @@ A template for Python Projects.
 
 Optionally, you could also setup continuous integration with CircleCI or similar, and setup git hooks.
 
-Check [my website](https://seankmartin.netlify.app/python/getting_your_code_out_there/#uploading-your-package-to-pypi) for more information.
+Check [my website](https://seankmartin.netlify.app/python/getting-your-code-out-there/#uploading-your-package-to-pypi) for more information.
 
 # README Template Below
 
